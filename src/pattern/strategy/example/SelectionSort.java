@@ -2,9 +2,7 @@ package pattern.strategy.example;
 
 import java.util.Arrays;
 
-/**
- * Created by Georgiy on 18.07.2016.
- */ //Selection sorting strategy (Сортировка выборками)
+//Selection sorting strategy (Сортировка выборками)
 class SelectionSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("Сортировка выборками");
@@ -15,7 +13,6 @@ class SelectionSort implements Sorting {
                     int tmp = arr[i];
                     arr[i] = arr[barier];
                     arr[barier] = tmp;
-
                 }
             }
         }

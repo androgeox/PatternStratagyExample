@@ -2,9 +2,7 @@ package pattern.strategy.example;
 
 import java.util.Arrays;
 
-/**
- * Created by Georgiy on 18.07.2016.
- */ //Bubble sorting strategy (Сортировка пузырьком)
+//Bubble sorting strategy (Сортировка пузырьком)
 class BubbleSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("Сортировка пузырьком");

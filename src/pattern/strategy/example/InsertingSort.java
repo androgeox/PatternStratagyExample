@@ -2,9 +2,7 @@ package pattern.strategy.example;
 
 import java.util.Arrays;
 
-/**
- * Created by Georgiy on 18.07.2016.
- */ //Inserting sorting strategy (Сортировка вставками)
+//Inserting sorting strategy (Сортировка вставками)
 class InsertingSort implements Sorting {
     public void sort(int[] arr) {
         System.out.println("Сортировка вставками");
