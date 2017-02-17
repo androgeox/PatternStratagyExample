@@ -1,3 +1,3 @@
-# PatternStratagyExample
+# PatternStrategyExample
 
 Пример шаблона проектирования Стратегия
